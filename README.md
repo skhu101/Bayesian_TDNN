@@ -29,21 +29,24 @@ bash local/chain_kaldi_feats/run_btdnn_7q.sh exp/chain_kaldi_feats/btdnn7q_sp_4e
 ```
 
 Result comparison:
+
 | Model | swbd in hub5' 00 | callhm in hub5' 00 | total in hub5' 00 | fisher in rt03 | swbd in rt03 | total in rt03 |
-| :----:  | :--: | :--:  | :--:  | :--:  | :--:  | :--:  | :--:  | 
 |tdnn_7q| 9.6              |  18.0              | 13.8              | 12.3           | 20.0         | 16.3          |
 |bayes_tdnn_7q| 9.4             |  17.3              | 13.4              | 11.7           | 19.3         | 15.7          |
 
+| Attempt | #1  | #2  |
+| :---:   | :-: | :-: |
+| Seconds | 301 | 283 |
 
 ### Citation
 If you find our codes or trined models useful in your research, please consider to star our repo and cite our paper:
 
-@article{hu2021bayesian,
-  title={Bayesian Learning of LF-MMI Trained Time Delay Neural Networks for Speech Recognition},
-  author={Hu, Shoukang and Xie, Xurong and Liu, Shansong and Yu, Jianwei and Ye, Zi and Geng, Mengzhe and Liu, Xunying and Meng, Helen},
-  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},
-  volume={29},
-  pages={1514--1529},
-  year={2021},
-  publisher={IEEE}
-}
+    @article{hu2021bayesian,
+      title={Bayesian Learning of LF-MMI Trained Time Delay Neural Networks for Speech Recognition},
+      author={Hu, Shoukang and Xie, Xurong and Liu, Shansong and Yu, Jianwei and Ye, Zi and Geng, Mengzhe and Liu, Xunying and Meng, Helen},
+      journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+      volume={29},
+      pages={1514--1529},
+      year={2021},
+      publisher={IEEE}
+    }
