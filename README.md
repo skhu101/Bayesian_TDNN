@@ -4,6 +4,8 @@ LF-MMI Trained Time Delay Neural Networks for Speech Recognition**, TASLP 2021.
 
 By Shoukang Hu, Xurong Xie, Shansong Liu, Jianwei Yu, Zi Ye, Mengzhe Geng, Xunying Liu, Helen Meng
 
+[Paper](https://ieeexplore.ieee.org/abstract/document/9387600)
+
 ## Getting Started
 * Install [Kaldi](https://github.com/kaldi-asr/kaldi)
 * Clone the repo:
@@ -36,7 +38,7 @@ exp/chain_kaldi_feats/btdnn7q_sp_4epoch (directory of the standard TDNN system) 
 1200.mdl (TDNN model updated with half of the total iterations)
 ```
 
-Result comparison:
+### Result comparison:
 
 | Model |  hub5' 00 <br> swbd  | hub5' 00 <br> callhm  | hub5' 00 <br> avg | rt03 <br> fisher | rt03 <br> swbd | rt03 <br> avg |
 | :---:   | :-: | :-: | :-: | :-: | :-: | :-: | 
