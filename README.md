@@ -18,14 +18,16 @@ Add the BayesTdnnV2Component in nnet-convolutional-component.h to kaldi/src/nnet
 Add the BayesTdnnV2Component in nnet-tdnn-component.cc to kaldi/src/nnet3/nnet-tdnn-component.cc 
 
 Add the following four lines to the corresponding location in kaldi/src/nnet3/nnet-component-itf.cc
-
+```shell
 else if (cpi_type == "BayesTdnnV2ComponentPrecomputedIndexes") {
     ans = new BayesTdnnV2Component::PrecomputedIndexes();
 
 else if (component_type == "BayesTdnnV2Component") {
     ans = new BayesTdnnV2Component();
+```
 
-Step 2: This part of code should be run based on the standard TDNN model (run_tdnn_7q.sh)
+Step 2: 
+This part of code should be run based on the standard TDNN model (run_tdnn_7q.sh)
 ```shell
 bash local/chain_kaldi_feats/run_btdnn_7q.sh \
 exp/chain_kaldi_feats/btdnn7q_sp_4epoch (directory of the standard TDNN system) \
