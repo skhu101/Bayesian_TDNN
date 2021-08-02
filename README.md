@@ -24,7 +24,8 @@ else if (component_type == "BayesTdnnV2Component") {
 
 Step 2: This part of code should be run based on the standard TDNN model (run_tdnn_7q.sh)
 ```shell
-bash local/chain_kaldi_feats/run_btdnn_7q.sh exp/chain_kaldi_feats/btdnn7q_sp_4epoch (directory of the standard TDNN system) 
+bash local/chain_kaldi_feats/run_btdnn_7q.sh \
+exp/chain_kaldi_feats/btdnn7q_sp_4epoch (directory of the standard TDNN system) \
 1200.mdl (TDNN model updated with half of the total iterations)
 ```
 
