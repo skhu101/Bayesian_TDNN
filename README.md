@@ -12,7 +12,7 @@ By Shoukang Hu, Xurong Xie, Shansong Liu, Jianwei Yu, Zi Ye, Mengzhe Geng, Xunyi
   ```
   
 ### Usage
-Step 1: 
+* Step 1: 
 Add the BayesTdnnV2Component in nnet-convolutional-component.h to kaldi/src/nnet3/nnet-convolutional-component.h 
 
 Add the BayesTdnnV2Component in nnet-tdnn-component.cc to kaldi/src/nnet3/nnet-tdnn-component.cc 
@@ -26,7 +26,7 @@ else if (component_type == "BayesTdnnV2Component") {
     ans = new BayesTdnnV2Component();
 ```
 
-Step 2: 
+* Step 2: 
 This part of code should be run based on the standard TDNN model (run_tdnn_7q.sh)
 ```shell
 bash local/chain_kaldi_feats/run_btdnn_7q.sh \
