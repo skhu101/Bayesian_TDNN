@@ -30,6 +30,7 @@ bash local/chain_kaldi_feats/run_btdnn_7q.sh exp/chain_kaldi_feats/btdnn7q_sp_4e
 
 Result comparison:
 
+|       | <td colspan=3>hub5' 00 <td colspan=3>Rt03
 | Model | swbd <br> hub5' 00 | callhm in hub5' 00 | total in hub5' 00 | fisher in rt03 | swbd in rt03 | total in rt03 |
 | :---:   | :-: | :-: | :-: | :-: | :-: | :-: | 
 | tdnn_7q | 9.6              |  18.0              | 13.8              | 12.3           | 20.0         | 16.3          |
