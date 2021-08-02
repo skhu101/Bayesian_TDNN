@@ -30,7 +30,7 @@ bash local/chain_kaldi_feats/run_btdnn_7q.sh exp/chain_kaldi_feats/btdnn7q_sp_4e
 
 Result comparison:
 
-| Model |  hub5' 00 <br> swbd  | hub5' 00 <br> callhm  | hub5' 00 <br> avg | Rt03 <br> fisher | Rt03 <br> swbd | Rt03 <br> avg |
+| Model |  hub5' 00 <br> swbd  | hub5' 00 <br> callhm  | hub5' 00 <br> avg | rt03 <br> fisher | rt03 <br> swbd | rt03 <br> avg |
 | :---:   | :-: | :-: | :-: | :-: | :-: | :-: | 
 | tdnn_7q | 9.6              |  18.0              | 13.8              | 12.3           | 20.0         | 16.3          |
 | bayes_tdnn_7q | 9.4             |  17.3              | 13.4              | 11.7           | 19.3         | 15.7          |
