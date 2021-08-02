@@ -29,7 +29,21 @@ else if (component_type == "BayesTdnnV2Component") {
     ans = new BayesTdnnV2Component();
 ```
 
+* complie the new source file 
+```shell
+cd kaldi/src/nnet3/
+make -j 20
+```
+
 Step 2: 
+
+run the factored TDNN model using the following command
+```shell
+cd kaldi/egs/swbd/s5c
+bash local/chain/tuning/run_tdnn_7q.sh
+```
+
+Step 3: 
 
 This part of code should be run based on the standard TDNN model (run_tdnn_7q.sh)
 ```shell
