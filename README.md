@@ -34,9 +34,9 @@ Result comparison:
 |tdnn_7q| 9.6              |  18.0              | 13.8              | 12.3           | 20.0         | 16.3          |
 |bayes_tdnn_7q| 9.4             |  17.3              | 13.4              | 11.7           | 19.3         | 15.7          |
 
-| Attempt | #1  | #2  |
-| :---:   | :-: | :-: |
-| Seconds | 301 | 283 |
+| Model | swbd in hub5' 00 | callhm in hub5' 00 | total in hub5' 00 | fisher in rt03 | swbd in rt03 | total in rt03 |
+| :---:   | :-: | :-: | :-: | :-: | :-: | :-: | 
+| tdnn_7q | 9.6              |  18.0              | 13.8              | 12.3           | 20.0         | 16.3          |
 
 ### Citation
 If you find our codes or trined models useful in your research, please consider to star our repo and cite our paper:
