@@ -1,6 +1,6 @@
 # Bayesian_TDNN
 This repository contains the Kaldi LF-MMI implementation of the paper **Bayesian Learning of 
-LF-MMI Trained Time Delay Neural Networks for Speech Recognition**, TASLP 2021.
+LF-MMI Trained Time Delay Neural Networks for Speech Recognition**, IEEE/ACM Transactions on Audio Speech and Language (TASLP).
 
 By Shoukang Hu, Xurong Xie, Shansong Liu, Jianwei Yu, Zi Ye, Mengzhe Geng, Xunying Liu, Helen Meng
 
