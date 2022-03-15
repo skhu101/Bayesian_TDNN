@@ -62,7 +62,7 @@ exp/chain_kaldi_feats/btdnn7q_sp_4epoch (directory of the standard TDNN system) 
 Note that we set --trainer.optimization.num-jobs-initial 1 and --trainer.optimization.num-jobs-final 1 in our experiments due to computational resource constraint.
 
 ### Citation
-If you find our codes or trined models useful in your research, please consider to star our repo and cite our paper:
+If you find our codes or trained models useful in your research, please consider to star our repo and cite our paper:
 
     @article{hu2021bayesian,
       title={Bayesian Learning of LF-MMI Trained Time Delay Neural Networks for Speech Recognition},
